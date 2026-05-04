@@ -1,9 +1,0 @@
-# Analytics — kept off GitHub, deploy manually to server
-#analytics.js
-
-# Book files — large binary files, deploy manually to server
-*.epub
-*.m4b
-*.zip
-.htaccess
-.DS_Store
