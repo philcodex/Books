@@ -8,10 +8,10 @@
   <style>
   :root {
     --bg:#d0e7f2;
-    --card:#ffffffcc; /* semi-transparent white background for container */
-    --text:#111827;   /* dark text for readability */
-    --muted:#374151;  /* darker muted grey */
-    --accent:#2563eb; /* stronger blue accent for links */
+    --card:#ffffffcc;
+    --text:#111827;
+    --muted:#374151;
+    --accent:#2563eb;
   }
 
   html,body {height:100%}
@@ -93,7 +93,6 @@
 
     td { padding: 0; border: none }
 
-    /* Hide number column on mobile */
     td:first-child { display: none }
 
     td:nth-child(2) {
@@ -112,7 +111,6 @@
       margin-bottom: 16px;
     }
 
-    /* Summary hidden on mobile */
     td:nth-child(4) { display: none }
 
     td:nth-child(5) { display: block; margin-bottom: 10px }
@@ -140,7 +138,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-L7L1SVWFHM');
 </script>
 
@@ -233,7 +230,21 @@
     </footer>
   </main>
 
-  <!-- StatCounter analytics (analytics.js excluded from git via .gitignore) -->
-  <script src="analytics.js"></script>
+  <!-- StatCounter analytics -->
+  <script>
+    var sc_project=13159031;
+    var sc_invisible=1;
+    var sc_security="b14eeb4d";
+
+    (function() {
+      var sc = document.createElement('script');
+      sc.type = 'text/javascript';
+      sc.async = true;
+      sc.src = 'https://www.statcounter.com/counter/counter.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(sc, s);
+    })();
+  </script>
+
 </body>
 </html>
